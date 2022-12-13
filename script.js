@@ -23,7 +23,7 @@ function update_data_box(button) {
 
 async function fetchdata() {
     try {
-        const url = "https://randomuser.me/api/";
+        const url = "https://randomuser.me/api/"; 
         let response = await fetch(url);
         let jsonResponse = await response.json();
         return jsonResponse;
